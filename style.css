@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+ 
+/* Header Session */
+.header{
+    background-color: #1f2937;
+    padding: 1vh 12vw;
+}
+
+/* Nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh 0;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.navbar a{
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover{
+    color: #f9faf8;
+    text-decoration: underline;
+}
+
+/* logo */
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+/* Hero Session */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 0;
+}
+
+/* Hero Text */
+.hero .text {
+    max-width: 50%;
+}
+.hero .text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.hero .text p {
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.hero .text button {
+    background-color: #3b82f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.hero .text button:hover {
+    background-color: #2563eb;
+}
+
+/* Image Container */
+.hero .image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #585858;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+/* body session */
+
+/* Content 1 */
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content1 h1 {
+    margin: 5vh 0;
+    font: 36px;
+    color: #1f2937;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Content Box */
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    color: #1f2937;
+}
+.nothing {
+    width: 150px;
+    height: 150px;
+    border: #3b82f6 2px solid;
+    border-radius: 10px;
+}
+
+/* Content 2 */
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 0;
+    padding: 5vh 25vw;
+    background-color: #d0d0d0;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 20px;
+}
+.author{
+    margin-left: auto;
+}
+
+
+/* Content 3 */
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign Up Container */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+    width: 70vw;
+    border-radius: 7px;
+    padding: 5vh 0;
+    background-color: #3b82f6;
+    margin-bottom: 12vh;
+}
+
+.signup-container .text {
+    color: #f9faf8;
+    line-height: 30px;
+}
+
+/* Sign Up button */
+.signup{
+    background-color: #3b82f6;
+    border: solid #f9faf8 2px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #f9faf8;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signup:hover {
+    background-color: #2563eb;
+}
+
+.signup:active {
+    background-color: #f9faf8;
+    border-color: #3b82f6;
+    color: #2563eb;
+}
+
+/* Footer Session */
+.footer{
+    background-color: #1f2937;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    width: 100%;
+    font-size: 12px;
+}
